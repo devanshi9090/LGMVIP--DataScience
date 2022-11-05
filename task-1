@@ -1,1 +1,31 @@
 
+The aim of the project was to classify the species based on their attributes
+
+The data set given was the iris dataset, it contains columns like - sepal length, sepal width, petal length, petal width, species name
+
+The aim was to use certain models/algorithms to classify the species on the basis of their attributes,
+
+Thus, to predict the type of the speices on the basis of sepal length, sepal width, petal length and petal width
+
+the predictions made are stored in a new variable y_pred
+
+INITIATION
+* Importing various important libraries for loading the data, data visualisations, making predictions, model selection, etc
+
+* Reading the file
+
+* Data pre-processing, checking the info, descriptions, null - values, etc
+
+* Data - visualisations, to better understand the data and extract the essential informations
+
+* Splitting the entire dataset into 2 parts - x - which is the independent variable and y - which is the independent one.
+
+*Now, we further need to split x and y into x_test, x_train and y_test and y_train
+
+*Our aim is to feed the model with x_test as an input and the model should predict the types of the species on the basis of input x_test
+
+*We import Logistic Regression to perform this type of classification
+
+*Since the values will be classified into any 1 of the 3 total species values.
+
+then , later, we check the accuracy and draw the confusion matrix
